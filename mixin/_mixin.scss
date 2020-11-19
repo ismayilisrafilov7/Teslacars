@@ -1,0 +1,9 @@
+@mixin hov {
+    &:hover {
+        color: white;
+        cursor: pointer;
+        transition: 0.3ms;
+        border-bottom: 2px solid red;
+
+    }
+}
